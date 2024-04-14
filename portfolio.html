@@ -5,6 +5,8 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Portfolio</title>
+
+      <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
@@ -13,32 +15,42 @@
 
 <body>
       <!--Header section-->
-      <header>
-            <p class="header__logo"><a href="#"><b><span>Web</span>Studio</b></a>
-            </p>
-            <nav class="header__navigation">
-                  <a href="index.html">Studio</a>
-                  <a href="portfolio.html">Portfolio</a>
-                  <a href="#">Contacts</a>
-            </nav>
-            <div class="header__info">
-                  <a href="emailto:info@devstudio.com">info@devstudio.com</a>
-                  <a href="tel:+12127724150">+1 212-772-4150</a>
+      <header class="header">
+            <div class="container">
+                  <div>
+                        <p class="header__logo"><a href="#"><b><span>Web</span>Studio</b></a>
+                        </p>
+                  </div>
+                  <div>
+                        <nav class="header__navigation">
+                              <a href="index.html">Studio</a>
+                              <a href="portfolio.html">Portfolio</a>
+                              <a href="#">Contacts</a>
+                        </nav>
+                  </div>
+                  <div>
+                        <div class="header__info">
+                              <a href="emailto:info@devstudio.com">info@devstudio.com</a>
+                              <a href="tel:+12127724150">+1 212-772-4150</a>
+                        </div>
+                  </div>
             </div>
+
       </header>
 
       <!--Filters section-->
-      <div class="filters-section">
-            <button type="button">All</button>
-            <button type="button">Web-sites</button>
-            <button type="button">Apps</button>
-            <button type="button">Design</button>
-            <button type="button">Marketing</button>
+      <div class="container">
+            <div class="filters-section">
+                  <button type="button">All</button>
+                  <button type="button">Web-sites</button>
+                  <button type="button">Apps</button>
+                  <button type="button">Design</button>
+                  <button type="button">Marketing</button>
+            </div>
       </div>
-
       <!--Portfolio section-->
-      <div class="portfolio-section">
-            <ul>
+      <div class="container">
+            <ul class="portfolio-section">
                   <li>
                         <img src="./images/technoduck-image.jpeg" alt="website layout for laptop" width="370"><br>
                         <b>Technoduck</b><br>
@@ -92,16 +104,17 @@
 
       <!--Footer section-->
       <footer class="footer">
-            <p class="footer__logo"><a href="#"><b><span>Web</span>Studio</b></a>
-            </p>
-            <address class="footer__contact">
-                  <p class="footer__contact-address">695 Park Ave, NY 10065, USA</p>
-            </address>
-            <div class="footer__contact-details">
-                  <a href="emailto:info@devstudio.com">info@devstudio.com</a><br>
-                  <a href="tel:+12127724150">+1 212-772-4150</a>
+            <div class="container">
+                  <p class="footer__logo"><a href="#"><b><span>Web</span>Studio</b></a>
+                  </p>
+                  <address class="footer__contact">
+                        <p class="footer__contact-address">695 Park Ave, NY 10065, USA</p>
+                  </address>
+                  <div class="footer__contact-details">
+                        <a href="emailto:info@devstudio.com">info@devstudio.com</a><br>
+                        <a href="tel:+12127724150">+1 212-772-4150</a>
+                  </div>
             </div>
-
       </footer>
 
 </body>
