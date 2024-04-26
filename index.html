@@ -6,7 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Web Studio Homework Project</title>
 
-      <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+      <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
@@ -20,7 +21,7 @@
                   <p class="header__logo"><a href="#"><b><span>Web</span>Studio</b></a>
                   </p>
                   <nav class="header__navigation">
-                        <div>
+                        <div class="header__navigation-bar">
                               <a href="index.html">Studio</a>
                               <a href="portfolio.html">Portfolio</a>
                               <a href="#">Contacts</a>
@@ -46,43 +47,43 @@
                   <!--What we do section-->
                   <section class="main-wwd">
                         <div class="container">
-                              <ul>
-                                    <li><strong>ATTENTION TO DETAILS</strong><br>
+                              <div class="main-wwd__skills">
+
+                                    <p class="main-wwd__skill"><strong>ATTENTION TO DETAILS</strong><br>
                                           We go into all the details and processes of your business to
                                           develop a customized
                                           solution.
-                                    </li>
+                                    </p>
 
-                                    <li><strong>PUNCTUALITY</strong><br>
+                                    <p class="main-wwd__skill"><strong>PUNCTUALITY</strong><br>
                                           With us, you can feel safe and secure. An important principle of
                                           the company:
                                           respect your
                                           time and deadlines.
-                                    </li>
-                                    <li><strong>PLANNING</strong><br>
+                                    </p>
+                                    <p class="main-wwd__skill"><strong>PLANNING</strong><br>
                                           You will be able to observe and participate in every phase of
                                           solution development
                                           and
                                           implementation
-                                    </li>
-                                    <li><strong>MODERN TECHNOLOGIES</strong><br>
+                                    </p>
+                                    <p class="main-wwd__skill"><strong>MODERN TECHNOLOGIES</strong><br>
                                           We use innovative tools to solve assigned tasks. It's time to
                                           simplify work
                                           processes.
-                                    </li>
-                              </ul>
-                              <h2 class="main-wwd__title">What we do</h2>
-                              <section class="main-wwd__images">
-                                    <ul>
+                                    </p>
 
-                                          <li><img src="./images/img-1.jpg" alt="typing on keyboard" width="370">
-                                          </li>
-                                          <li><img src="./images/img-2.jpg" alt="planning phone layout" width="370">
-                                          </li>
-                                          <li><img src="./images/img-3.jpg" alt="colour plalette" width="370">
-                                          </li>
-                                    </ul>
-                              </section>
+                              </div>
+                              <h2 class="main-wwd__title">What we do</h2>
+                              <div class="main-wwd__images">
+
+                                    <img src="./images/img-1.jpg" alt="typing on keyboard" width="370">
+
+                                    <img src="./images/img-2.jpg" alt="planning phone layout" width="370">
+
+                                    <img src="./images/img-3.jpg" alt="colour plalette" width="370">
+
+                              </div>
                         </div>
                   </section>
 
@@ -91,32 +92,32 @@
                         <div class="container">
                               <h2 class="main-team__title">Our team</h2>
 
-                              <ul class="main-team__list">
-                                    <li>
-                                          <img src="./images/img-Christopher-Walker.jpg" alt="Christopher Walker image"
-                                                width="270"><br>
-                                          <b>Christopher Walker</b><br>
+                              <div class="main-team__list">
+                                    <p>
+                                          <img class="main-team__img" src="./images/img-Christopher-Walker.jpg"
+                                                alt="Christopher Walker image" width="270"><br>
+                                          <b class="main-team__names">Christopher Walker</b><br>
                                           Product Designer
-                                    </li>
-                                    <li>
-                                          <img src="./images/img-Kylie-Evans.jpg" alt="Kylie Evans image"
-                                                width="270"><br>
-                                          <b>Kylie Evans</b><br>
+                                    </p>
+                                    <p>
+                                          <img class="main-team__img" src="./images/img-Kylie-Evans.jpg"
+                                                alt="Kylie Evans image" width="270"><br>
+                                          <b class="main-team__names">Kylie Evans</b><br>
                                           Frontend Developer
-                                    </li>
-                                    <li>
-                                          <img src="./images/img-Ryan-Harris.jpg" alt="Ryan Harris image"
-                                                width="270"><br>
-                                          <b>Ryan Harris</b><br>
+                                    </p>
+                                    <p>
+                                          <img class="main-team__img" src="./images/img-Ryan-Harris.jpg"
+                                                alt="Ryan Harris image" width="270"><br>
+                                          <b class="main-team__names">Ryan Harris</b><br>
                                           Marketing
-                                    </li>
-                                    <li>
-                                          <img src="./images/img-Tyler-Moore.jpg" alt="Tyler Moore image"
-                                                width="270"><br>
-                                          <b>Tyler Moore</b><br>
+                                    </p>
+                                    <p>
+                                          <img class="main-team__img" src="./images/img-Tyler-Moore.jpg"
+                                                alt="Tyler Moore image" width="270"><br>
+                                          <b class="main-team__names">Tyler Moore</b><br>
                                           UI Designer
-                                    </li>
-                              </ul>
+                                    </p>
+                              </div>
                         </div>
                   </section>
             </main>
