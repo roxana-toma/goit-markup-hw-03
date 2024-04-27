@@ -47,7 +47,7 @@ body {
 
 .header__logo {
   font-family: var(--logo-font);
-  font-weight: 700;
+  font-weight: normal;
   font-size: 26px;
   line-height: 1.1;
   color: var(--black);
@@ -60,6 +60,7 @@ body {
 
 .header__logo span {
   color: var(--blue);
+  text-decoration: none;
 }
 
 .header__logo b {
