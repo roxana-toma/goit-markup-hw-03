@@ -149,6 +149,14 @@ body {
   border: 1px solid;
   border-color: var(--blue);
   margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
+}
+
+.header__request {
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 /* What we do (wwd) section style*/
