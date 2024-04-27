@@ -37,15 +37,12 @@ body {
 /* Header section style */
 
 .header .container {
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
-
-.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header__logo {
